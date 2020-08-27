@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "DoHyeon";
+  src: url("../fonts/DoHyeon-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-size: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2 {
+  font-family: "DoHyeon";
+}
+
+h3, p {
+  font-family: "Montserrat";
+}
+
+.header {
+  width: 85%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #192BC2;
+  margin-top: 15px;
+}
+.header .menu {
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-family: "DoHyeon", sans-serif;
+  font-size: 20px;
+}
+.header .menu ul {
+  list-style: none;
+  margin: 0px auto;
+  width: 1130px;
+}
+.header .menu ul li {
+  line-height: 60px;
+  float: left;
+}
+.header .menu ul li a {
+  display: block;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.header .menu ul li a:hover {
+  background-color: #2639E3;
+  text-shadow: 1px 1px 1px black;
+}
+
+.main-container {
+  display: grid;
+  width: 85%;
+  height: 690px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 1px solid #cccccc;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  box-shadow: 5px 5px 5px #0E186C;
+}
+.main-container .container-tarea img {
+  display: flex;
+  width: 290px;
+  height: 290px;
+  margin: 0 auto;
+  margin-top: 50%;
+}
+.main-container .container-tarea button {
+  width: 45%;
+  height: 70px;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 90px;
+  margin-top: 10px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #0E186C;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.main-container .container-tarea button:hover {
+  background-color: #2639E3;
+}
+
+.container-form h2 {
+  margin-top: 15px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+.container-form label {
+  margin-left: 35px;
+  font-size: 20px;
+}
+.container-form input[type=text],
+.container-form input[type=email] {
+  width: 100%;
+  height: 25px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #0E186C;
+  padding: 5px;
+  padding-left: 15px;
+  outline: none;
+}
+.container-form input[type=submit] {
+  width: 50%;
+  height: 45px;
+  margin-left: 35px;
+  font-size: 20px;
+  border: none;
+  background-color: #0E186C;
+  color: white;
+  cursor: pointer;
+  transition: all 2ms;
+}
+.container-form input[type=submit]:hover {
+  background-color: #2639E3;
+  border-radius: 20px;
+}
+
+.container-table {
+  margin-left: 140px;
+  margin-top: 35px;
+}
+.container-table table {
+  border: 1px solid #0E186C;
+}
+.container-table td {
+  padding: 20px;
+}
+
+.container-tarea2 {
+  width: 100%;
+  height: 450px;
+  border: 1px solid #192BC2;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+.container-tarea2 h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 2px solid #0E186C;
+}
+.container-tarea2 .tarea-container ol {
+  margin-left: 150px;
+  margin-top: 15%;
+}
+.container-tarea2 .tarea-container ol li {
+  font-size: 19px;
+  font-weight: bold;
+}
+.container-tarea2 .tarea-buttons .button {
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 14px;
+  background-color: #0E186C;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 200ms;
+  outline: none;
+}
+.container-tarea2 .tarea-buttons .button:hover {
+  background-color: #2639E3;
+  box-shadow: 2px 2px 2px white inset;
+}
+
+.container-add {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #0E186C;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+.container-add h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container-add input[type=text] {
+  width: 50%;
+  height: 30px;
+  margin-left: 35px;
+  border: none;
+  padding-left: 10px;
+  border-bottom: 2px solid #0E186C;
+  outline: none;
+}
+.container-add button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: #0E186C;
+  color: white;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.container-add button:hover {
+  background-color: #2639E3;
+}
+.container-add h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.container-add ul {
+  margin-left: 45px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=sytle.css.map */

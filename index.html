@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo No. 7</title>
+
+    <link rel="stylesheet" href="assets/style/sytle.css">
+</head>
+
+<body>
+
+    <!--Inicio del Header-->
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tarean1.html">Tarea No. 1</a></li>
+                <li><a href="tarean2.html">Tarea No. 2</a></li>
+                <li><a href="tarean3.html">Tarea No. 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin del Header-->
+
+    <!--Inicio Contenido-->
+    <main class="main-container">
+
+        <!--Inicio Sección Tarea 1-->
+        <section class="container-tarea">
+            <div>
+                <img src="https://cdn4.iconfinder.com/data/icons/contact-us-set-1-5/64/Untitled-3-18-512.png" alt="">
+            </div>
+            <button><a href="tarean1.html">Ingreso de Datos en Formulario</a> </button>
+        </section>
+        <!--Fin Sección Tarea 1-->
+
+
+           <!--Inicio Sección Tarea 1-->
+           <section class="container-tarea">
+            <div>
+                <img src="https://cdn4.iconfinder.com/data/icons/contact-us-set-1-5/64/Untitled-3-18-512.png" alt="">
+            </div>
+            <button><a href="tarean2.html">Ingreso de Datos nuevo, editar y eliminar </a> </button>
+        </section>
+        <!--Fin Sección Tarea 1-->
+
+          <!--Inicio Sección Tarea 1-->
+          <section class="container-tarea">
+            <div>
+                <img src="https://images.ctfassets.net/s600jj41gsex/24msFnvpYsXz36jh50st6E/bd6b9378c7cc1f6dcd310fb631a7d3ac/Image_default_localstorage.png?w=768&q=50&fit=scale" alt="">
+            </div>
+            <button><a href="tarean3.html">Ingreso de Datos nuevo, editar y eliminar </a> </button>
+        </section>
+        <!--Fin Sección Tarea 1-->
+
+
+
+    </main>
+    <!--Fin Contenido-->
+
+</body>
+
+</html>

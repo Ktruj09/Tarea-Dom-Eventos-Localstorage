@@ -1,0 +1,45 @@
+.main-container{
+    display: grid;
+    width: 85%;
+    height: 690px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid #cccccc;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    box-shadow: 5px 5px 5px $color-oscuro;
+    
+
+    
+    .container-tarea img{
+        display: flex;
+        width: 290px;
+        height: 290px;
+        margin: 0 auto;
+        margin-top: 50%;
+        
+    }
+    .container-tarea button{
+        width: 45%;
+        height: 70px;
+        display: flex;
+        margin: 0 auto;
+        margin-left: 90px;
+        margin-top: 10px;
+        line-height: 30px;
+        padding-left: 15px;
+        padding-top: 5px;
+        text-align: center;
+        background-color: $color-oscuro;
+        color: white;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 200ms;
+    }
+
+    .container-tarea button:hover{
+        background-color: $color-claro;
+    }
+}
+

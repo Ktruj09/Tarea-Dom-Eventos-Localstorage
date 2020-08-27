@@ -1,0 +1,47 @@
+//Creaciones de variables de Colores
+$color-primario: #192BC2;
+$color-claro: #2639E3;
+$color-oscuro: #0E186C;
+
+//delcariación de fuentes 
+$Fuente1: "DoHyeon", sans-serif;
+$Fuente2: 'Montserrat', sans-serif;
+
+
+
+
+@font-face{
+    font-family: 'DoHyeon';
+    src: url('../fonts/DoHyeon-Regular.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+//Configuraciones globales
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+h1, h2{
+    font-family: 'DoHyeon';
+}
+
+h3, p{
+    font-family: 'Montserrat';
+}
